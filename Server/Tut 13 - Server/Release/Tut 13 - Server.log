@@ -1,18 +1,2 @@
-﻿  FileTransferData.cpp
-FileTransferData.cpp(19): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-  Packet.cpp
-  PacketManager.cpp
-  PacketStructs.cpp
-  ProcessPacket.cpp
-  SendGetMethods.cpp
-  Server.cpp
-  ServerIni.cpp
-  Source.cpp
-  Generating code
-c:\users\annette\documents\github\capstone\server\tut 13 - server\filetransferdata.cpp(23): warning C4715: 'FileTransferData::Initialize': not all control paths return a value
-  864 of 867 functions (99.7%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Server\Release\Tut 13 - Server.exe
+﻿  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Server\Release\Tut 13 - Server.exe
   Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Server\Release\Tut 13 - Server.pdb (Full PDB)
