@@ -1,3 +1,10 @@
 ﻿  Source.cpp
-  Tut 13 - Client.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Client\Debug\Tut 13 - Client.exe
-  Tut 13 - Client.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Client\Debug\Tut 13 - Client.pdb (Full PDB)
+  SendGetMethods.cpp
+  PacketStructs.cpp
+  PacketManager.cpp
+  Packet.cpp
+  ClientIni.cpp
+  Client.cpp
+  Generating Code...
+  Tut 13 - Client.vcxproj -> C:\Users\Annette\Documents\capstone\Tutorial 13\Tut 13 - Client\Debug\Tut 13 - Client.exe
+  Tut 13 - Client.vcxproj -> C:\Users\Annette\Documents\capstone\Tutorial 13\Tut 13 - Client\Debug\Tut 13 - Client.pdb (Full PDB)

@@ -1,2 +1,16 @@
-﻿  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Server\Release\Tut 13 - Server.exe
-  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Server\Release\Tut 13 - Server.pdb (Full PDB)
+﻿  FileTransferData.cpp
+FileTransferData.cpp(19): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+  Packet.cpp
+  PacketManager.cpp
+  PacketStructs.cpp
+  ProcessPacket.cpp
+  SendGetMethods.cpp
+  Server.cpp
+  ServerIni.cpp
+  Source.cpp
+  Generating code
+c:\users\annette\documents\capstone\tutorial 13\tut 13 - server\tut 13 - server\filetransferdata.cpp(23): warning C4715: 'FileTransferData::Initialize': not all control paths return a value
+  All 867 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\capstone\Tutorial 13\Tut 13 - Server\Release\Tut 13 - Server.exe
+  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\capstone\Tutorial 13\Tut 13 - Server\Release\Tut 13 - Server.pdb (Full PDB)
