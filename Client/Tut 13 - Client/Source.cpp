@@ -8,21 +8,32 @@ Date: 02/26/2017
 
 int main()
 {
-	Client myClient("127.0.0.1",1111); //Create client to connect to server 127.0.0.1 [localhost] on port 1111
-	if (!myClient.Connect()) //If client fails to connect...
-	{
-		std::cout << "Failed to connect to server..." << std::endl;
-		system("pause");
-		return -1;
-	}
-	std::string userinput; //holds the user's chat message
-	while (true)
-	{
-		std::getline(std::cin,userinput); //Get line if user presses enter and fill the buffer
-		myClient.SendString(userinput); //Send string to server
-	}
+	String userPass;
+	String pass = "Senior2018";
+	cout << "Enter your password: " << endl;
+	cin >> userPass;
 
-	std::cin.get();
-	return 0;
+	if (pass == userPass) {
+		Client myClient("127.0.0.1",1111); //Create client to connect to server 127.0.0.1 [localhost] on port 1111
+			if (!myClient.Connect()) //If client fails to connect...
+			{
+				std::cout << "Failed to connect to server..." << std::endl;
+				system("pause");
+				return -1;
+			}
+			std::string userinput; //holds the user's chat message
+			while (true)
+			{
+				std::getline(std::cin,userinput); //Get line if user presses enter and fill the buffer
+				myClient.SendString(userinput); //Send string to server
+			}
+
+		std::cin.get();
+		return 0;
+	}
+	else
+		return 0;
+
+	
 }
 
