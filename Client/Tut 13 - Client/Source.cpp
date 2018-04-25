@@ -21,7 +21,7 @@ int main()
 	}
 
 	if (isusername(usern) && ispassword(userPass)) {
-		Client myClient("192.168.1.228",1111); //Create client to connect to server 127.0.0.1 [localhost] on port 1111
+		Client myClient("172.20.10.2",1111); //Create client to connect to server 127.0.0.1 [localhost] on port 1111
 			if (!myClient.Connect()) //If client fails to connect...
 			{
 				std::cout << "Failed to connect to server..." << std::endl;
