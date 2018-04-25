@@ -66,7 +66,7 @@ int main()
 
 bool isusername(string usern) {
 	string usename = "jon";
-	if (usern == usename)
+	if (usern == usename | usern == "user1" | usern == "user2")
 		return true;
 	else
 		return false;
