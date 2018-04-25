@@ -9,8 +9,10 @@ FileTransferData.cpp(19): warning C4244: '=': conversion from 'std::streamoff' t
   ServerIni.cpp
   Source.cpp
   Generating code
-c:\users\annette\documents\capstone\tutorial 13\tut 13 - server\tut 13 - server\filetransferdata.cpp(23): warning C4715: 'FileTransferData::Initialize': not all control paths return a value
-  All 867 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+c:\users\annette\documents\github\capstone\server\tut 13 - server\filetransferdata.cpp(23): warning C4715: 'FileTransferData::Initialize': not all control paths return a value
+  864 of 867 functions (99.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\capstone\Tutorial 13\Tut 13 - Server\Release\Tut 13 - Server.exe
-  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\capstone\Tutorial 13\Tut 13 - Server\Release\Tut 13 - Server.pdb (Full PDB)
+  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Server\Release\Tut 13 - Server.exe
+  Tut 13 - Server.vcxproj -> C:\Users\Annette\Documents\GitHub\capstone\Server\Release\Tut 13 - Server.pdb (Full PDB)

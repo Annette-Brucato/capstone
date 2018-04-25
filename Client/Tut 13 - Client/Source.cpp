@@ -5,15 +5,22 @@ Date: 02/26/2017
 */
 #include "Client.h"
 #include <iostream>
+using namespace std;
+
+bool isusername(string);
+bool ispassword(string);
 
 int main()
 {
-	String userPass;
-	String pass = "Senior2018";
-	cout << "Enter your password: " << endl;
-	cin >> userPass;
+	string userPass, usern;
+	cout << "Enter your username: " << endl;
+	cin >> usern;
+	if (isusername(usern)) {
+		cout << "Enter your password: " << endl;
+		cin >> userPass;
+	}
 
-	if (pass == userPass) {
+	if (isusername(usern) && ispassword(userPass)) {
 		Client myClient("127.0.0.1",1111); //Create client to connect to server 127.0.0.1 [localhost] on port 1111
 			if (!myClient.Connect()) //If client fails to connect...
 			{
@@ -31,9 +38,25 @@ int main()
 		std::cin.get();
 		return 0;
 	}
-	else
+	else {
+		cout << "Username and/or password did not match.  " << endl;
+		system("PAUSE");
 		return 0;
-
-	
+	}
 }
 
+bool isusername(string usern) {
+	string usename = "jon";
+	if (usern == usename)
+		return true;
+	else
+		return false;
+}
+
+bool ispassword(string password) {
+	string pass = "Senior2018";
+	if (pass == password)
+		return true;
+	else
+		return false;
+}
